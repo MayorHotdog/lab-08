@@ -1,5 +1,6 @@
 package com.example.lab_8
 
+// Remember that we need to make a tech wizard subclass
 class Wizard(val name: String, var mana: Int, var spellPower: Int) {
     fun castSpell(spell: String): Int {
         when (spell) {
